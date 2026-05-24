@@ -11,7 +11,7 @@ export default {
     },
     devtool: "eval-source-map", // Source map helps final js file errors to match up with the line numbers of the src js files. Refer https://webpack.js.org/configuration/devtool/ for more options.
     devServer: {
-        watchFiles: ["./src/template.html"], // What the live server should watch for
+        watchFiles: ["./src/index.html"], // What the live server should watch for
     },
     plugins: [
         new HtmlWebpackPlugin({
