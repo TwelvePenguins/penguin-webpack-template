@@ -4,7 +4,4 @@ Notes to self:
 - eslint config states no react/vue is being used.
 - babel was installed as jest does not understand ESM's import/export. This might change in a future version, and changes should be made accordingly.
 - To make a test for one particular file, use `[filename].test.js`
-- initialise jest auto-watching with `npm run watch`
-
-TODO:
-- add scripts
+- Initialise jest auto-watching with `npm run watch`
